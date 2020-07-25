@@ -17,7 +17,6 @@ namespace Biz126.WebDemo
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             //“¿¿µ◊¢»Î
             IocConfig.RegisterDependencies();
