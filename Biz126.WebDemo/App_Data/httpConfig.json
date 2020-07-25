@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Key": "demo1",
+    "Name": "演示1接口",
+    "BaseAddress": "http://localhost",
+    "Headers": {
+      "Accept": "application/json",
+      "User-Agent": "Biz126-HttpClient",
+      "KeepAlive": "true"
+    },
+    "Timeout": 10
+  },
+  {
+    "Key": "demo2",
+    "Name": "演示2接口",
+    "BaseAddress": "http://localhost:8001",
+    "Headers": {
+      "Accept": "application/json",
+      "User-Agent": "Biz126-HttpClient",
+      "KeepAlive": "true"
+    },
+    "Timeout": 10
+  }
+]
